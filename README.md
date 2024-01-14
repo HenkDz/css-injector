@@ -3,6 +3,8 @@
 ## Overview
 `CSS_Injector_Extension` is a Chrome extension using Manifest V3 that allows users to personalize the appearance of web pages by injecting custom CSS. The extension offers a clean and modern interface, making it easy and intuitive to manage and persist custom styles across page visits.
 
+![Screenshot](image.png)
+
 ### Features
 - Apply and manage custom CSS styles for specific websites.
 - Visually appealing UI with toggle switches for styles on and off.
