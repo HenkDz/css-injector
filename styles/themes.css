@@ -1,0 +1,44 @@
+:root {
+  --background-light: #ffffff;
+  --background-dark: #2c2c2c;
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff;
+  --button-bg-light: #e0e0e0;
+  --button-bg-dark: #3a3a3a;
+  --toggle-on-color: #4caf50;
+  --toggle-off-color: #f44336;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--background-dark);
+    color: var(--text-color-dark);
+  }
+  button {
+    background-color: var(--button-bg-dark);
+    color: var(--text-color-dark);
+  }
+  .toggle-active {
+    background-color: var(--toggle-on-color);
+  }
+  .toggle-inactive {
+    background-color: var(--toggle-off-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+  }
+  button {
+    background-color: var(--button-bg-light);
+    color: var(--text-color-light);
+  }
+  .toggle-active {
+    background-color: var(--toggle-on-color);
+  }
+  .toggle-inactive {
+    background-color: var(--toggle-off-color);
+  }
+}
