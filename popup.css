@@ -1,0 +1,85 @@
+/* Restored and updated styles for popup UI */
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#add-new-style {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#add-new-style:hover {
+  opacity: 0.8;
+}
+
+#style-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.style-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-button {
+  height: 20px;
+  width: 40px;
+  border-radius: 10px;
+  padding: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  transition: left 0.2s ease;
+}
+
+.toggle-inactive .toggle-thumb {
+  left: 2px;
+}
+
+.toggle-active .toggle-thumb {
+  left: 22px;
+}
+
+.button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
